@@ -1,0 +1,20 @@
+{
+  "name": "parabank-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright Automation Suite for ParaBank Application",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
